@@ -23,7 +23,7 @@ class App:
 
 def main():
     app = App()
-    print("AddressBook loaded. Type 'help' to see commands, 'exit' to quit.")
+    print("AddressBook loaded.\nType 'help' to see commands, 'exit' to quit.")
     try:
         while True:
             cmd = input("> ").strip()
@@ -47,4 +47,4 @@ def main():
         print("Saved. Bye!")
 
 if __name__ == "__main__":
-    main()
+     main()
